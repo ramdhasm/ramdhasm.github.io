@@ -239,7 +239,7 @@ span {
 }
 
 .skills-img img {
-  width: 80%;
+  width: 85%;
   padding-left: 4rem;
   object-position: center;
 }
@@ -411,6 +411,7 @@ span {
 
   .skills-img img {
     padding-left: 0;
+    /* display: none; */
   }
 
   .skills-img {
@@ -421,7 +422,8 @@ span {
 
   .experience-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: nowrap;
   }
 }
