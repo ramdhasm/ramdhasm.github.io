@@ -212,15 +212,16 @@ header {
 
 .skill-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   align-items: center;
+  justify-content: center;
   gap: 2rem;
   margin-top: 4rem;
 }
 
 .bars {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1);
 }
 
 .bars-box {
@@ -230,6 +231,7 @@ header {
   align-items: center;
   padding: 1rem 0;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .bars-box h3,
